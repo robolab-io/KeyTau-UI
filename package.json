@@ -1,0 +1,24 @@
+{
+  "name": "keytau-ui",
+  "version": "0.0.0",
+  "description": "UI library for KeyTau",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "solid-js": "^1.4.7"
+  },
+  "devDependencies": {
+    "vite-plugin-dts": "^2.2.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
